@@ -1,0 +1,43 @@
+:root{--brand:#0f8f6a;--ink:#14213d;--accent:#ffb703;--mute:#7b8190;--line:#e5e7eb;--bg:#f6f7f9}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink)}a{color:inherit;text-decoration:none}
+main{max-width:1200px;margin:0 auto;padding:16px}h1,h2{margin:0}
+.promo{background:var(--ink);color:#fff;text-align:center;font-size:13px;padding:6px}
+.header{position:sticky;top:0;z-index:5;display:flex;gap:16px;align-items:center;padding:12px 24px;background:#fff;border-bottom:1px solid var(--line)}
+.logo{font-weight:800;font-size:22px;color:var(--brand);display:flex;gap:6px;align-items:center}.logo i{color:var(--accent);font-style:normal}
+.search{flex:1}.search input{width:100%;padding:11px 16px;border:1px solid transparent;border-radius:12px;background:var(--bg);font:inherit}.search input:focus{outline:2px solid var(--brand);background:#fff}
+.cartlink{display:flex;gap:6px;align-items:center;font-weight:600}.cartlink b{background:var(--brand);color:#fff;border-radius:99px;padding:0 8px;font-size:13px}
+.catnav{display:flex;gap:24px;padding:10px 24px;background:#fff;border-bottom:1px solid var(--line);overflow-x:auto;font-size:14px}.catnav a{white-space:nowrap}.catnav a:hover{color:var(--brand)}
+.hero{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr;gap:12px;margin-bottom:20px;min-height:260px}
+.banner{border-radius:16px;padding:24px;display:flex;flex-direction:column;justify-content:center;font-weight:700;font-size:18px}
+.banner.main{grid-row:span 2;background:linear-gradient(135deg,var(--brand),#0b5f4a);color:#fff;gap:8px}.banner.main h1{font-size:34px}.banner.main p{margin:0 0 8px}
+.s1{background:#fff3cf}.s2{background:#dfeaff}
+.circles{display:flex;gap:20px;justify-content:center;margin-bottom:20px;overflow-x:auto;font-size:13px}
+.circles a{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:76px}.circles span{display:grid;place-items:center;width:64px;height:64px;border-radius:50%;background:#fff;border:1px solid var(--line);font-size:28px}
+.deals{background:var(--ink);color:#fff;border-radius:16px;padding:16px;margin-bottom:20px}.dealhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.timer{background:var(--accent);color:var(--ink);font-weight:700;border-radius:8px;padding:4px 12px}.deals .card{color:var(--ink)}
+.trust{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:24px}
+.trust div{background:#fff;border-radius:12px;padding:14px;display:flex;gap:10px;align-items:center;font-size:14px}.trust span{font-size:24px}
+.listhead{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.sorts{display:flex;gap:6px;font-size:13px}.sorts a{padding:6px 12px;border-radius:99px;background:#fff;border:1px solid var(--line)}.sorts a.on{background:var(--brand);color:#fff;border-color:var(--brand)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.card{background:#fff;border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:6px;border:1px solid transparent;transition:border-color .2s}
+.card:hover{border-color:var(--brand)}.card h3{font-size:14px;font-weight:500;margin:0;line-height:1.8;min-height:50px}
+.thumb{display:grid;place-items:center;background:var(--bg);border-radius:12px;font-size:64px;aspect-ratio:1}.thumb.huge{font-size:140px}.thumb.sm{font-size:32px;width:64px}
+.meta{display:flex;justify-content:space-between;color:var(--mute);font-size:13px}
+.badge{background:var(--accent);color:var(--ink);font-weight:700;border-radius:99px;padding:0 8px;font-size:13px}
+.price{font-weight:700;font-size:17px}.price small{font-weight:400;color:var(--mute)}.price.big{font-size:26px}s{color:var(--mute);font-size:13px}.mute{color:var(--mute)}
+.btn{display:inline-block;background:var(--brand);color:#fff;border:0;border-radius:12px;padding:10px 18px;font:inherit;cursor:pointer;text-align:center}
+.btn.light{background:#fff;color:var(--brand);align-self:flex-start}.btn.big{width:100%;padding:14px;font-size:16px;margin:12px 0}
+.crumb{color:var(--mute);font-size:13px}.crumb a:hover{color:var(--brand)}
+.detail{display:grid;grid-template-columns:1fr 1.2fr 280px;gap:24px;background:#fff;border-radius:16px;padding:24px;margin-bottom:24px}
+.specs{width:100%;border-collapse:collapse;margin-top:12px}.specs th{text-align:right;color:var(--mute);font-weight:400;width:35%}.specs th,.specs td{padding:10px 0;border-bottom:1px solid var(--line)}
+.buybox{background:var(--bg);border-radius:14px;padding:16px;align-self:start;position:sticky;top:80px}.sec{margin:8px 0 12px}
+.cartwrap{display:grid;grid-template-columns:1fr 320px;gap:16px;align-items:start}
+.cart{background:#fff;border-radius:16px;padding:24px}.row{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}.grow{flex:1}
+.qty{display:flex;gap:10px;align-items:center}.qty button{width:32px;height:32px;border-radius:8px;border:1px solid var(--line);background:#fff;cursor:pointer}
+.link{background:none;border:0;color:#d33;cursor:pointer;font:inherit}
+.sum{background:#fff}.line{display:flex;justify-content:space-between;padding:8px 0;font-size:14px}.line.green{color:var(--brand)}.line.tot{font-size:17px;border-top:1px solid var(--line);margin-top:6px;padding-top:14px}
+.empty{text-align:center;padding:48px 0;color:var(--mute)}.empty a{color:var(--brand)}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:12px 22px;border-radius:12px;z-index:9}
+.footer{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:24px;max-width:1200px;margin:24px auto 0;padding:32px 16px;border-top:1px solid var(--line);font-size:14px;color:var(--mute)}.footer b{color:var(--ink)}
+@media(max-width:800px){.hero{grid-template-columns:1fr;grid-template-rows:auto}.banner.main{grid-row:auto}.detail,.cartwrap{grid-template-columns:1fr}.header{padding:10px 12px;flex-wrap:wrap}.search{order:3;flex-basis:100%}.cartlink span{display:none}.buybox{position:static}}
